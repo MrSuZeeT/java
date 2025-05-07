@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Main page</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        background-color: #333;
+        align-items: center;
+        align-content: center;
+        top: 50%;
+        left: 50%;
+    }
+
+    html {
+        height: 100%;
+        margin: 0;
+    }
+    .bg {
+        top: 0;
+        left: 0;
+        height: 101%;
+        width: 101%;
+        position: fixed;
+    }
+    .container {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center;     /* Center vertically */
+        height: 100vh;   
+        top: 5%;
+        left: 5%;        /* Full viewport height */
+    }
+
+
+    .img, .HAS, .Email, .FAQ, .Profile, .Login, .Signup {
+        position: fixed;
+        transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .img {
+        top: 15px;
+        left: 15px;
+    }
+
+    .HAS {
+        top: 70px;
+        left: 15px;
+    }
+
+    .Email {
+        top: 125px;
+        left: 15px;
+    }
+
+    .FAQ {
+        top: 180px;
+        left: 15px;    
+    }
+
+    .Profile {
+        top: 700px;
+        left: 15px;        
+    }
+
+    .Login {
+        top: 645px;
+        left: 15px;    
+    }
+
+    .Signup {
+        top: 590px;
+        left: 15px;    
+    }
+
+    /* Hover effect for all images */
+    img{
+        transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    }
+
+    img:hover {
+        transform: scale(1.1); /* Scale up the image */
+        opacity: 0.8; /* Slightly reduce opacity */
+    }
+    
+
+</style>
+</head>
+<body> 
+    <img class="bg" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="1525" height="500">
+    <a href="hovered.html">
+    <img class="img" src="https://img.icons8.com/?size=100&id=i6fZC6wuprSu&format=png&color=000000" width="50" height="50">
+    </a>
+    <a href="https://discord.gg/jkHxrCMH">
+    <img class="HAS" src="https://img.icons8.com/?size=100&id=11227&format=png&color=000000" width="45" height="45">
+    </a>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJvpbSxRVTmvgLvgdSbsnXNXTWvwlXncPlPvcKSdwLjMJhtmsGXkNCfJNQmQBMVpkbXdsZg">
+        <img class="Email" src="https://img.icons8.com/?size=100&id=12580&format=png&color=000000" width="50" height="50">
+    </a>
+    <a href="FAQ.html">
+        <img class="FAQ" src="https://img.icons8.com/?size=100&id=4CwLkmW4Wkgj&format=png&color=000000" width="50" height="50">
+    </a>
+    <a href="https://myaccount.google.com/personal-info">
+        <img class="Profile" src="https://img.icons8.com/?size=100&id=zxB19VPoVLjK&format=png&color=000000" width="50" height="50">
+    </a>
+    <a href="login.html">
+        <img class="Login" src="https://img.icons8.com/?size=100&id=26218&format=png&color=000000" width="50" height="50">
+    </a>
+    <a href="reg.html">
+        <img class="Signup" src="https://img.icons8.com/?size=100&id=3&format=png&color=000000" width="50" height="50">
+    </a>
+    </body>
+    </html>
